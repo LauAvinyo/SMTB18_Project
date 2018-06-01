@@ -1,3 +1,6 @@
-# artificialEvolution
-The idea is to code for some game of live. If it is successful, we can add more animals, plants and so on.
+# Comparative and Functional Genomics final project
+
+The idea of this project is to understand how to annotate proteins of a newly sequenced genome.
+Moreover we can see understand more about the proteins if generate the trees of each of the proteins.
+
 

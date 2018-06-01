@@ -6,7 +6,7 @@ Moreover we can see understand more about the proteins if generate the trees of 
 
 The workflow of this project is the following:
 1. For each of the proteins do BLAST, InterPro, KEGGBlast
-2.Annotate as good as we can the function of each of the proteins
+2. Annotate as good as we can the function of each of the proteins
 3. Blast againts local database
 4. Filter the best 20 hits and do a tree with it
 5. Understand each tree

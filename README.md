@@ -49,6 +49,6 @@ Now, you have a folder with the executables. You can run the programs from here.
 `cd /usr/local/bin`
 
 5. Copy the executable and change its name to msms:
-`sudo cp msms.x86_64Linux2.2.6.1 msms`
+`sudo cp ~/installing/msms/msms.x86_64Linux2.2.6.1 msms`
 
 Done!

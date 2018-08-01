@@ -1,6 +1,6 @@
 # This is the title of the project
 
-what is in this repo
+Definition of the project!
 
 # How to install everything in linux
 

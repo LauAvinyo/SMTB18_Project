@@ -4,12 +4,15 @@ From this table (uploaded as well here in this folder) we can select the protein
 ### Downloading using comand line
 
 ##### PDB files
-`wget ftp://ftp.wwpdb.org/pub/pdb/data/structures/all/pdb/pdbXXXX.ent.gz`
+`wget https://files.rcsb.org/download/XXXX.pdb`
 And we have to ungz
 
 ##### Sequence files
 `wget https://www.uniprot.org/uniprot/XXXXXX.fasta`
 
 For example, if want to download deoxy human hemoglobine (PDB code: 1A3N, UniProt ID: P68871)
+
+`wget https://files.rcsb.org/download/1A3N.pdb`
+
 `wget ftp://ftp.wwpdb.org/pub/pdb/data/structures/all/pdb/pdb1A3N.ent.gz`
 

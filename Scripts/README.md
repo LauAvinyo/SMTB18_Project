@@ -1,6 +1,6 @@
 The pipeline goes as follow:
 
-1. Get all the data. This will be done manually.
+1. Get all the data. This will be done manually. In the Data/README.md file you can see the wget comands given the PDB code and UniProt id.
 2. Multiple alignment: with T-Coffee. `tcoffee.sh` gets all the .fas files and align them.
 3. Trees: with PHYLIP, note that the you the data must bw formated. There are scripts to transform and to generate the input file to PHYLIP.
 4. Structure analysis - what is the surface, what is the core: We need to get the PDB.

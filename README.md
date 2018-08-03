@@ -33,7 +33,7 @@ Remember that for running them you have to call them from the exe folder or ./na
 To install it with pip:
 `python3.6 -m pip install biopython`
 
-You can do it from the source code but it is rather difficult.
+You can do it from the source code but it is rather difficult. Also, if you do not have pip you can install it using: `sudo apt-get install python3-pip`
 
 ### MSMS
 1. Move to our desired installing folder. eg. msms folder in the same folder of before.

@@ -1,6 +1,21 @@
 # This is the title of the project
+Proteins works in complexes. This complexes can be:
+  - Homomers: all subunits come from the same gene
+  - Heteromers: not all subunits come from the same gene
+It is known that both types of complexes are important for the functionality and stability of proteins. However, it remains to know why some of them are homo and some of them are hetero. It could be that there are some differences between them! For instance, in the evolution of the sequences. So, this is what we are going to do.
+We will grap some homomers and some heteromers from different species (homo sapiens, saccharomyces cerevisiae, escherichia coli and caenorhabditis elegans). Then, we'll look for homologous proteins using simple blast againts swiss prot. 
+Then we will the rate of evolution for each of the proteins. To do so, we will use protein and DNA data:
 
-Definition of the project!
+### Protein data:
+  1. We will transfrom DNA to protein sequences
+  2. We will align all the sequences per protein
+  3. We will get an idea of each site conservation using Shannon entropy  
+  4. We will investigate how to get rates of evolution for each site using already written code
+  5. We will analyse the structures of the proteins to see what is the core and what is in the interface.
+  6. We will merge all data and try to figure out if there is any difference
+
+
+The following papers is a good inspiration for this project: the [paper](https://f1000research.com/articles/6-1845/v1) its [github](https://github.com/clauswilke/proteinER).
 
 # How to install everything in linux
 

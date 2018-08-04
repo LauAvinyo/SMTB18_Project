@@ -2,6 +2,7 @@
 Proteins works in complexes. This complexes can be:
   - Homomers: all subunits come from the same gene
   - Heteromers: not all subunits come from the same gene
+  
 It is known that both types of complexes are important for the functionality and stability of proteins. However, it remains to know why some of them are homo and some of them are hetero. It could be that there are some differences between them! For instance, in the evolution of the sequences. So, this is what we are going to do.
 We will grap some homomers and some heteromers from different species (homo sapiens, saccharomyces cerevisiae, escherichia coli and caenorhabditis elegans). Then, we'll look for homologous proteins using simple blast againts swiss prot. 
 Then we will the rate of evolution for each of the proteins. To do so, we will use protein and DNA data:

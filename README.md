@@ -1,4 +1,4 @@
-# This is the title of the project
+# Homomers vs Heteromers!
 Proteins works in complexes. This complexes can be:
   - Homomers: all subunits come from the same gene
   - Heteromers: not all subunits come from the same gene

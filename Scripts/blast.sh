@@ -1,0 +1,9 @@
+blastp -query Q06592.fasta -db swissprot -remote     -entrez_query Saccharomycetales[Organism]  -outfmt '6 sseqid' -out Q06592.blast
+blastp -query P32325.fasta -db swissprot -remote     -entrez_query Saccharomycetales[Organism]  -outfmt '6 sseqid' -out P32325.blast
+blastp -query P57743.fasta -db swissprot -remote     -entrez_query Saccharomycetales[Organism]  -outfmt '6 sseqid' -out P57743.blast
+blastp -query O75874.fasta -db swissprot -remote     -entrez_query Mammalia[Organism]  -outfmt '6 sseqid' -out O75874.blast
+blastp -query P02766.fasta -db swissprot -remote     -entrez_query Mammalia[Organism]  -outfmt '6 sseqid' -out P02766.blast
+blastp -query P0A6C8.fasta -db swissprot -remote     -entrez_query Enterobacteriales[Organism]  -outfmt '6 sseqid' -out P0A6C8.blast
+blastp -query POAFX9.fasta -db swissprot -remote     -entrez_query Enterobacteriales[Organism]  -outfmt '6 sseqid' -out POAFX9.blast
+blastp -query Q19905.fasta -db swissprot -remote     -entrez_query Arthropoda[Organism]  -outfmt '6 sseqid' -out Q19905.blast
+blastp -query B3GWA1.fasta -db swissprot -remote     -entrez_query Arthropoda[Organism]  -outfmt '6 sseqid' -out B3GWA1.blast

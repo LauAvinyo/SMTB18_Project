@@ -61,5 +61,8 @@ def readAlig(file, form):
     alignment = AlignIO.read(open(file), form)
     alig= {}
     for s in alignment:
-        alig[s.name.split("|")[1]] = str(s.seq)    
+        if '|' in s.name:
+            alig[s.name.split("|")[1]] = str(s.seq)    
+        else: 
+            alig[s.name] = str(s.seq)  
     return alig

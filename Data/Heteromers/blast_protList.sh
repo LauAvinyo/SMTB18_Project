@@ -1,0 +1,10 @@
+blastp -query P29295.fasta -db nr -remote     -entrez_query Saccharomycetales[Organism]  -outfmt '6 sseqid' -out P29295.blast
+blastp -query P20449.fasta -db nr -remote     -entrez_query Saccharomycetales[Organism]  -outfmt '6 sseqid' -out P20449.blast
+blastp -query P54784.fasta -db nr -remote     -entrez_query Saccharomycetales[Organism]  -outfmt '6 sseqid' -out P54784.blast
+blastp -query P68871.fasta -db nr -remote     -entrez_query Mammalia[Organism]  -outfmt '6 sseqid' -out P68871.blast
+blastp -query P01588.fasta -db nr -remote     -entrez_query Mammalia[Organism]  -outfmt '6 sseqid' -out P01588.blast
+blastp -query P13804.fasta -db nr -remote     -entrez_query Mammalia[Organism]  -outfmt '6 sseqid' -out P13804.blast
+blastp -query P18956.fasta -db nr -remote     -entrez_query Enterobacteriales[Organism]  -outfmt '6 sseqid' -out P18956.blast
+blastp -query PoA6T9.fasta -db nr -remote     -entrez_query Enterobacteriales[Organism]  -outfmt '6 sseqid' -out PoA6T9.blast
+blastp -query G5ECF1.fasta -db nr -remote     -entrez_query nematodes[Organism]  -outfmt '6 sseqid' -out G5ECF1.blast
+blastp -query Q9XV58.fasta -db nr -remote     -entrez_query nematodes[Organism]  -outfmt '6 sseqid' -out Q9XV58.blast

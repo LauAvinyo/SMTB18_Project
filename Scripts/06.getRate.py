@@ -1,6 +1,7 @@
 from functions import *
 from Bio import AlignIO
 import matplotlib.pyplot as plt
+import sys
 
 alp=list("ACDEFGHIKLMNPQRSTVWY")
 
@@ -40,8 +41,12 @@ for i in alp:
             v = k
     aa_charact[i] = (c, p, k)
     
-query = 'B3GWA1'
-alig = readAlig('alignOurs.fa', 'fasta')
+inputFile  = sys.argv[1]
+outputFile = sys.argv[2]
+code = inputFile.split('.')[0]
+
+alig = readAlig(inputFile, 'fasta')
+query = code
 
 lSeq = len(alig[query])
 nSeq = len(alig)
@@ -66,7 +71,7 @@ for x in range(lSeq):
         for z in range(y+1, nSeq):
             aa1 = sequences[y][x]
             aa2 = sequences[z][x]
-            if aa1 == '-' or aa2 == '-': continue
+            if aa1 not in alp or aa2 not in alp: continue
             sub = (min(aa1,aa2), max(aa1,aa2))
             subsDic[x][sub] += 1
 
@@ -109,7 +114,8 @@ mean = sum(ratio)/ len(ratio)
 
 norm1 = list(((x-mean)/mean) for x in ratio)
 
-out=open("rates.txt", "w")
+out=open(outputFile, "w")
+print('cons', 'rad', 'ratio', 'norm', file=out, sep='\t')
 for x in range(len(ratio)):
-    print(consrad[x][0], consrad[x][1], ratio[x], norm1[x], file=out, sep='\t')
+    print(consRad[x][0], consRad[x][1], ratio[x], norm1[x], file=out, sep='\t')
 out.close()

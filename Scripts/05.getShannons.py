@@ -9,7 +9,7 @@ inputFile  = sys.argv[1]
 outputFile = sys.argv[2]
 code = inputFile.split('.')[0]
 
-alig = readAlig(file, 'fasta')
+alig = readAlig(inputFile, 'fasta')
 length = len(alig[code])
 
 # Get the Shannons entropy by position

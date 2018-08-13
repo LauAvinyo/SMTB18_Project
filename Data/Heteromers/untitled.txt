@@ -1,0 +1,2 @@
+·
+python GetInterfaces.py --f1 1A2Y.pdb --f2 1A2Y.pdb --c1 AB --c2 C --c 4.5 --i 10.0 --jobid example_output

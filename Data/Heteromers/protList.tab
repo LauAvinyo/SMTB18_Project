@@ -1,8 +1,8 @@
-Function	UniID	Species	PDB
+Function	UniID	Species	PDB chain  
 Transferase	P29295	Scer	5cy3
-Hydrolase	P20449	Scer	3peu
-Transcription	P54784	Scer	1zhi
-Hemoglobine	P68871	Hsap	1A3N
+Hydrolase	P20449	Scer	3peu    A
+Transcription	P54784	Scer 1zhi   A
+Hemoglobine	P68871	Hsap	1A3N    A
 CompheEri	P01588	Hsap	1eer
 Electrans	P13804	Hsap	1EFV
 Transferase	P18956	Ecoli	2E0X

@@ -1,11 +1,10 @@
-Function	UniID	Species	PDB
-Transferase	P29295	Scer	5cy3
-Hydrolase	P20449	Scer	3peu
-Transcription	P54784	Scer	1zhi
-Hemoglobine	P68871	Hsap	1A3N
-CompheEri	P01588	Hsap	1eer
-Electrans	P13804	Hsap	1EFV
-Transferase	P18956	Ecoli	2E0X
-Ligase	PoA6T9	Ecoli	3a7a
-mRNAbind	G5ECF1	Celg	3Zhe
-Rnabinding	Q9XV58	Celg	3NVO
+Function	UniID	Species	PDB chain   to
+Hydrolase	P20449	Scer	3peu    A   B
+Transcription	P54784	Scer 1zhi   A   B
+CompheEri	P01588	Hsap	1eer    A   B
+CompheEri	P01588	Hsap	1eer    A   C
+Electrans	P13804	Hsap	1EFV    A   B
+Transferase	P18956	Ecoli	2E0X    A   B
+Ligase	PoA6T9	Ecoli	3a7a    B   A
+mRNAbind	G5ECF1	Celg	3Zhe    A   B
+mRNAbind	G5ECF1	Celg	3Zhe    A   D

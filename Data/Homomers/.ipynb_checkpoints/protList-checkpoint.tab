@@ -1,7 +1,6 @@
-Function	UniID	Species	PDB
-Transferase	Q06592	Scer	1qso
-CellCycle	P32325	Scer	3qbz
-Oxidoreductase	O75874	Hsap	4kzo
-Transport	P02766	Hsap	4n85
-Transferase	P0A6C8	Ecoli	2x2w
-RNAbinding	B3GWA1	Celg	5ca5
+Function	UniID	Species	PDB chain   to
+Transferase	Q06592	Scer	1qso    A   B    
+Oxidoreductase	O75874	Hsap	4kzo    A   B
+Transport	P02766	Hsap	4n85    A   B
+Transferase	P0A6C8	Ecoli	2x2w    B   A
+RNAbinding	B3GWA1	Celg	5ca5    A   B

@@ -1,6 +1,5 @@
 from Bio import AlignIO
 from math import log
-import matplotlib.pyplot as plt
 import numpy as np
 from functions import *
 import sys

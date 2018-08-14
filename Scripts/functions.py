@@ -20,6 +20,7 @@ def getShannon(alig, pos):
     return h
 
 def findGaps(alig,name):
+    print(name in list(alig.keys()))
     pos =[]
     seq = alig[name]
     for s in range(len(seq)):

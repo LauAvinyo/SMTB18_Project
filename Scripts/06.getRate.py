@@ -1,6 +1,5 @@
 from functions import *
 from Bio import AlignIO
-import matplotlib.pyplot as plt
 import sys
 
 alp=list("ACDEFGHIKLMNPQRSTVWY")
